@@ -1,0 +1,15 @@
+[
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls",
+            "delegate_permission/common.get_login_creds"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "eth.social.sefer",
+            "sha256_cert_fingerprints": [
+                "3B:B4:BA:16:94:DE:B1:74:2E:A2:EE:B9:AB:E7:F5:0B:B8:AA:67:87:A3:1E:65:AB:5B:62:2A:31:B8:00:8D:4E"
+            ]
+        }
+    }
+]

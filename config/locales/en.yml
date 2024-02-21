@@ -1,0 +1,37 @@
+en:
+  blocked: "You have successfully blocked %{user}"
+  was_not_blocked: "User was not blocked"
+  follow: "You have started following %{user}"
+  unfollow: "You have successfully unfollowed %{user}"
+  not_following: "You were not following the user"
+  updated: "%{resource} was successfully updated"
+  created: "%{resource} was successfully created"
+  not_found: "%{resource} was not found."
+  vote: "Vote was successfully %{operation}."
+  pinned: "You %{operation} the post successfully"
+  joined: "You are successfully joined %{community}"
+  added: "%{resource} was successfully added."
+
+  comments:
+    single: "%{value} comment"
+    multiple: "%{value} comments"
+  likes:
+    single: "%{value} like"
+    multiple: "%{value} likes"
+  reply: 
+    single: "%{value} milash"
+    multiple: "%{value} milashoch"
+
+  pundit:
+    default: "You cannot perform this action."
+    post_policy:
+      destroy?: "You are not the owner"
+      view?: "You can not view this post!"
+      update?: "You can not update this post!"
+    comment_policy:
+      destroy?: "You are not the owner"
+      view?: "You can not view this comment!"
+      update?: "You can not update this comment!"
+    user_policy:
+      show?: "You cannot view this user!"
+      follow?: "You cannot follow this user!"

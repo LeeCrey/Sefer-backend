@@ -1,0 +1,26 @@
+AllCops:
+  TargetRubyVersion: 3.2.1
+  Exclude:
+    - "config.ru"
+    - "Rakefile"
+    # - "config/**/*"
+    - "bin/*"
+    # - "test/**/*"
+    - "spec/**/"
+    - "db/**/*"
+    - "db/schema.rb"
+  NewCops: enable
+
+Style/Documentation:
+  Enabled: false
+
+Style/ClassAndModuleChildren:
+  Enabled: false
+
+Bundler/OrderedGems:
+  Enabled: false
+
+Metrics/BlockLength:
+  Enabled: true
+  Exclude: 
+    - "config/routes.rb"

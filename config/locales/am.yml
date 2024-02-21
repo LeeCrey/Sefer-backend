@@ -1,0 +1,35 @@
+am:
+  blocked: "%{user} በተሳካ ሁኔታ አግደሃል"
+  was_not_blocked: "ተጠቃሚ አልታገደም።"
+  follow: "You have started following %{user}"
+  unfollow: "You have successfully unfollowed %{user}"
+  not_following: "ተጠቃሚውን እየተከተልክ አልነበረም"
+  updated: "%{resource} በተሳካ ሁኔታ ተስተካክሏል"
+  created: "%{resource} በተሳካ ሁኔታ ተለጠፈ"
+  not_found: "%{resource} አልተገኘም።"
+  vote: "%{operation} ወደውታል።"
+
+  comments:
+    single: "%{value} አስተያየት"
+    multiple: "%{value} አስተያየቶች"
+  likes:
+    single: "%{value} ላይክ"
+    multiple: "%{value} ላይኮች"
+  reply: 
+    single: "%{value} ምላሽ"
+    multiple: "%{value} ምላሾች"
+
+  pundit:
+    default: "ይህን ተግባር ማከናወን አይችሉም።"
+    post_policy:
+      destroy?: "እርስዎ ባለቤት አይደሉም"
+      view?: "ይህን ልጥፍ ማየት አይችሉም!"
+      update?: "ይህን ልጥፍ ማርትዕ አይችሉም!"
+    comment_policy:
+      destroy?: "እርስዎ ባለቤት አይደሉ"
+      view?: "ይህን አስተያየት ማየት አይችሉም!"
+      update?: "ይህን አስተያየት ማርትዕ አይችሉም!"
+    user_policy:
+      show?: "ይህን ተጠቃሚ ማየት አይችሉም!"
+      block?: "ይህን ተጠቃሚ ማገድ አይችሉም!"
+      follow?: "ይህንን ተጠቃሚ መከተል አይችሉም!"
